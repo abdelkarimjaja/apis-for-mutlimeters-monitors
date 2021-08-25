@@ -3,6 +3,8 @@
  * **************************************************************************************************************
  *
  * @file pnuema.h
+ * @author Abdelkarim JAJA
+ * @date 16/08/2021
  * @brief Header file for pneuma.c file
  *        This file contains the main functions for controlling the speed of pump and valve.
  * ***************************************************************************************************************
