@@ -35,7 +35,7 @@ void PM_Init(void){
  *
  */
 void PM_Set_DC_Pump(uint8_t dutyCycle){
-	PM_Pump_Channel_CCR = dutyCycle;
+	PM_Pump_Channel_CCR = (PM_TIM_ARR * dutyCycle)/100;
 }
 
 /**
@@ -44,5 +44,5 @@ void PM_Set_DC_Pump(uint8_t dutyCycle){
  *
  */
 void PM_Set_DC_Valve(uint8_t dutyCycle){
-	PM_Valve_Channel_CCR = dutyCycle;
+	PM_Valve_Channel_CCR = (PM_TIM_ARR * dutyCycle)/100;;
 }
