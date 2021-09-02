@@ -45,6 +45,11 @@
 #define PM_Valve_Channel_CCR TIM2->CCR3 // .
 
 /**
+ * @brief TIM2 auto-reload register
+ */
+#define PM_TIM_ARR TIM2->ARR
+
+/**
  * @brief Start PWM Timer and initiate the duty cycle registers - CCRx - for our pneumatic.
  *
  * */
