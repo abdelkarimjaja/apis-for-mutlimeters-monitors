@@ -2,6 +2,7 @@
  *   @file XGZP6859D.h
  *   @brief Header file for XGZP6859D.c file
  *          This file provides the main variables and functions to get the pressure Value from XGZP6859D Pressure Sensor.
+ *   @author Abdelkarim JAJA
  */
 
 #ifndef INC_XGZP6859D_H_
