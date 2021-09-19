@@ -1,6 +1,7 @@
 /*
  *  @file XGZP6859D.c
  *  @brief This file contain the defined functions of XGZP6859D Pressure Sensor Module.
+ *  @author Abdelkarim JAJA
  */
 
 /* Includes _________________________________________________________*/
