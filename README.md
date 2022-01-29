@@ -12,7 +12,7 @@ Hardware Used:
 Software Used:
 1. STM32CubeIDE is an all-in-one multi-OS development tool, which is part of the STM32Cube software ecosystem, you find more details about it from this link: https://www.st.com/en/development-tools/stm32cubeide.html
 
-\ 
+ 
 The APIs are shown below:
 1. PWM API for control the speed of an pomp. Show the folder  ./PWM API
 2. Pression API for read the pression from XGZP6859D Pressure Sensor Module. Show the folder  ./pression API
